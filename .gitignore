@@ -1,0 +1,79 @@
+# ========================
+# Secrets — NEVER commit
+# ========================
+.env
+.env.local
+.env.*.local
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.spec
+
+# ========================
+# Virtual Environments
+# ========================
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ========================
+# Generated Blog Output
+# ========================
+images/
+*.md
+# Keep README tracked
+!README.md
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Streamlit
+# ========================
+.streamlit/secrets.toml
+
+# ========================
+# Logs & temp
+# ========================
+*.log
+*.tmp
+*.bak
